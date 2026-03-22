@@ -1,9 +1,9 @@
-FROM php:8.2-cli
+FROM php:8.4-cli
 
 WORKDIR /app
 
 RUN apt-get update && apt-get install -y \
-    git unzip curl libzip-dev zip
+git unzip curl libzip-dev zip
 
 RUN docker-php-ext-install pdo pdo_mysql zip
 
