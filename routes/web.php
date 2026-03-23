@@ -4,15 +4,16 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\TaskController;
 use Illuminate\Support\Facades\Route;
 
-
-Route::get('/', function () {
-    return "🔥 Laravel is working!";
-});
 Route::get('/dashboard', function () {
-    $tasks = auth()->user()->tasks;
+    $user = auth()->user();
+
+    if (!$user) {
+        return redirect('/login');
+    }
+
+    $tasks = $user->tasks;
     return view('dashboard', compact('tasks'));
 })->middleware(['auth'])->name('dashboard');
-
 Route::middleware('auth')->group(function () {
 
     // TASKS
