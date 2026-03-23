@@ -7,6 +7,9 @@ RUN apt-get update && apt-get install -y \
     libpq-dev zip \
     && docker-php-ext-install pdo pdo_pgsql
 
+    RUN php artisan config:clear && \
+    php artisan route:clear && \
+    php artisan cache:clear
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
 COPY . .
