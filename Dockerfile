@@ -15,4 +15,4 @@ RUN composer install --no-interaction --prefer-dist --optimize-autoloader
 
 EXPOSE 10000
 
-CMD php artisan serve --host=0.0.0.0 --port=10000
+CMD php artisan serve --host=0.0.0.0 --port=$PORT
