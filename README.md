@@ -152,15 +152,13 @@ laravel-task-manager/
 ## 📸 Screenshots
 
 ### 🔐 Login Page
-![Login](https://laravel-task-manager-2-hhfe.onrender.com/screenshots/login.png)
+![Login](https://raw.githubusercontent.com/DIYA73/laravel-task-manager/main/task-app/public/screenshots/login.png)
 
 ### 📋 Dashboard & Kanban Board
-![Dashboard](https://laravel-task-manager-2-hhfe.onrender.com/screenshots/dashboard.png)
+![Dashboard](https://raw.githubusercontent.com/DIYA73/laravel-task-manager/main/task-app/public/screenshots/dashboard.png)
 
 ### 📝 Register Page
-![Register](https://laravel-task-manager-2-hhfe.onrender.com/screenshots/register.png)
-
----
+![Register](https://raw.githubusercontent.com/DIYA73/laravel-task-manager/main/task-app/public/screenshots/register.png)
 
 ## 🔮 Roadmap & Future Improvements
 
