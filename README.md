@@ -151,7 +151,14 @@ laravel-task-manager/
 
 ## 📸 Screenshots
 
-> *(Screenshots coming soon — Kanban board, Dashboard, Task Management UI)*
+### 🔐 Login Page
+![Login](https://laravel-task-manager-2-hhfe.onrender.com/screenshots/login.png)
+
+### 📋 Dashboard & Kanban Board
+![Dashboard](https://laravel-task-manager-2-hhfe.onrender.com/screenshots/dashboard.png)
+
+### 📝 Register Page
+![Register](https://laravel-task-manager-2-hhfe.onrender.com/screenshots/register.png)
 
 ---
 
