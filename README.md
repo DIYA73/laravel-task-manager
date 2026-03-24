@@ -160,6 +160,8 @@ laravel-task-manager/
 ### 📝 Register Page
 ![Register](https://raw.githubusercontent.com/DIYA73/laravel-task-manager/main/task-app/public/screenshots/register.png)
 
+---
+
 ## 🔮 Roadmap & Future Improvements
 
 - [ ] 🔔 In-app Notifications
